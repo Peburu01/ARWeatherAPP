@@ -53,11 +53,13 @@
     <UnityVersion>2020.3.25f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\App\Scripts\WeatherDataScript.cs" />
     <Compile Include="Assets\App\Scripts\Background.cs" />
-    <Compile Include="Assets\App\Scripts\JSONReader.cs" />
+    <Compile Include="Assets\App\Scripts\LocationData.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\App\Test\JSONText.txt" />
+    <None Include="Assets\App\Test\WeatherJSON.txt" />
+    <None Include="Assets\App\Test\LocationJSON.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

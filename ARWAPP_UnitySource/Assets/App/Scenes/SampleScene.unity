@@ -460,6 +460,7 @@ GameObject:
   - component: {fileID: 1658263090}
   - component: {fileID: 1658263089}
   - component: {fileID: 1658263093}
+  - component: {fileID: 1658263094}
   m_Layer: 5
   m_Name: MainUI
   m_TagString: Untagged
@@ -560,7 +561,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e760bb75eca2dd4885b07061db752a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  JSONTXT: {fileID: 4900000, guid: 2d88c58760e9a5b4fad55973e795e182, type: 3}
+  JSONFile: {fileID: 4900000, guid: 2d88c58760e9a5b4fad55973e795e182, type: 3}
+  JSONSouruceString: 
   WeatherData:
     name: 
     weather: []
@@ -571,6 +573,26 @@ MonoBehaviour:
       temp_max: 0
       pressure: 0
       humidity: 0
+--- !u!114 &1658263094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1658263088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9874354ea5a7d474e9a2f44d6c0f49ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  JSONFile: {fileID: 4900000, guid: 6f572d4ca44b58940ba7281ab5930706, type: 3}
+  JSONSouruceString: 
+  locd:
+    status: 
+    country: 
+    city: 
+    lat: 0
+    lon: 0
 --- !u!1 &1747900001
 GameObject:
   m_ObjectHideFlags: 0
