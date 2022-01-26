@@ -54,8 +54,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\App\Scripts\WeatherDataScript.cs" />
-    <Compile Include="Assets\App\Scripts\Background.cs" />
     <Compile Include="Assets\App\Scripts\LocationData.cs" />
+    <Compile Include="Assets\App\Scripts\Background.cs" />
+    <Compile Include="Assets\App\Scripts\GetAllData.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\App\Test\WeatherJSON.txt" />
